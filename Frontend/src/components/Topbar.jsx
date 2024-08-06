@@ -25,7 +25,7 @@ const TopBar = () => {
     if (authState.loading) return null;
 
     return (
-        <div className="flex flex-col md:flex-row bg-[#D1DCAF] items-center justify-between px-6 md:px-[100px] py-4 space-y-4 md:space-y-0">
+        <div className="flex flex-col md:flex-row bg-[#D1DCAF] items-center justify-between px-6 md:px-[100px] py-3 space-y-4 md:space-y-0">
             <h1 className="text-2xl font-mono text-black md:text-4xl font-extrabold">
                 <Link to="/">FILEUP</Link>
             </h1>
@@ -74,7 +74,7 @@ const TopBar = () => {
                 )}
             </div>
         </div>
-    );
+    )
 }
 
 export default TopBar;
