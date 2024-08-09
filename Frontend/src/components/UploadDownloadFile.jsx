@@ -76,7 +76,7 @@ const UploadDownloadFile = () => {
                     className="bg-[#37896C] hover:bg-[#006D5F] text-white font-bold py-2 px-4 rounded-md"
                 >Submit</button>
                 {loading && (
-                    <div className="mt-4"><span className="loading loading-bars loading-lg"></span></div>
+                    <div className="mt-4"><span className="loading loading-bars loading-lg bg-purple-700"></span></div>
                 )}
                 {result && (
                     <div className="text-center mt-8">
